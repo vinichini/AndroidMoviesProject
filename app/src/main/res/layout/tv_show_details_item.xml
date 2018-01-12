@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/tv_show_details_button_share"
+        style="@style/ShareDetailsStyle"/>
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/tv_show_details_title"
+        style="@style/TitleDetailsStyle"/>
+
+    <!-- Movie Image -->
+    <ImageView
+        android:id="@+id/tv_show_details_image"
+        style="@style/ImageDetailsStyle"/>
+
+    <!-- Movie Description -->
+    <TextView
+        android:id="@+id/tv_show_details_description"
+        style="@style/OverviewDetailsStyle"/>
+
+    <!-- Movie Rating -->
+    <RatingBar
+        android:id="@+id/tv_show_details_ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="10"
+        android:stepSize="0.1"
+        android:isIndicator="true"/>
+    <TextView
+        android:id="@+id/tv_show_details_rating_value"
+        style="@style/RatingValueDetailsStyle"/>
+
+    <!-- Loader -->
+    <include layout="@layout/loader"
+        android:id="@+id/tv_show_details_loader"
+        style="@style/LoaderDetailsStyle"/>
+
+
+</LinearLayout>

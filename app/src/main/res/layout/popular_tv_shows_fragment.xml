@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popular_tv_shows_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/popular_tv_shows_failed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text=""/>
+        <TextView
+            android:id="@+id/popular_tv_shows_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/popular_tv_shows_failed"
+            android:text=""/>
+        <TextView
+            android:id="@+id/popular_tv_shows_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+          android:layout_below="@id/popular_tv_shows_header"
+            android:text=""/>
+        <ListView
+            android:id="@+id/popular_tv_shows_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"/>
+
+        <Button
+            android:id="@+id/get_more_button_popular_tv_shows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/popular_tv_shows_list_view"
+            android:layout_alignParentEnd="true"
+            android:text="@string/button_get_more"
+            android:layout_alignBaseline="@id/popular_tv_shows_list_view"/>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="language">pt</string>
+    <string name="app_name">Movies Db</string>
+    <string name="home">INICIO</string>
+    <string name="movies">FILMES EM CARTAZ</string>
+    <string name="tv_shows">SÉRIES POPULARES</string>
+    <string name="search_input">Pesquisar Filme</string>
+    <string name="button_search">PESQUISAR</string>
+    <string name="search_input_results">Resultados para </string>
+    <string name="button_get_more">OBTER MAIS</string>
+    <string name="net_error_message">Erro ao actualizar. Sem internet!</string>
+    <string name="catch_error_message">Ocorreu um erro. Por favor tente de novo.</string>
+    <string name="update_message">última actualização</string>
+    <string name="list_pages">Páginas</string>
+    <string name="share_app">Escolha o método de partilha</string>
+
+    <!--Movie/Tvshow Details-->
+    <string name="share">PARTILHA</string>
+    <string name="title">TITULO</string>
+    <string name="overview">DESCRIÇÃO</string>
+    <string name="rating">PONTUAÇÃO</string>
+
+    <!--Frases na Partilha de Filmes-->
+    <string name="movie_share_message_item">O filme</string>
+    <string name="movie_share_message_rating">tem a pontuação de</string>
+    <string name="movie_share_message_bad">Hum, este filme tem uma péssima pontuação!</string>
+    <string name="movie_share_message_medium">Este filme não tem uma boa pontuação. :(</string>
+    <string name="movie_share_message_good">Este filme deve ser bom! :)</string>
+    <string name="movie_share_message_amazing">Este filme deve ser espectacular!!!</string>
+
+    <!--Frases na Partilha de Series-->
+    <string name="tv_show_share_message_item">A série</string>
+    <string name="tv_show_share_message_rating">tem a pontuação de</string>
+    <string name="tv_show_share_message_bad">Hum, esta série tem uma péssima pontuação!</string>
+    <string name="tv_show_share_message_medium">Este filme não tem uma boa pontuação. :(</string>
+    <string name="tv_show_share_message_good">Esta série deve ser boa! :)</string>
+    <string name="tv_show_share_message_amazing">Esta série deve ser espectacular!!!</string>
+</resources>

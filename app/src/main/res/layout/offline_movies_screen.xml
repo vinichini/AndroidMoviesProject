@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <TextView
+        android:id="@+id/offline_movies_screen_title"
+        style="@style/TitleStyle"
+        android:layout_alignBaseline="@+id/get_more_button_offline_movies_screen"
+        android:text="@string/movies"/>
+    <Button
+        android:id="@+id/get_more_button_offline_movies_screen"
+        style="@style/ButtonMoreStyle"/>
+
+    <ListView
+        android:id="@+id/offline_movies_screen_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/get_more_button_offline_movies_screen">
+
+    </ListView>
+
+
+</RelativeLayout>

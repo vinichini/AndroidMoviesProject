@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background_color</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Menu -->
+    <!-- Texto de Navegação -->
+    <style name="MenuText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Fragment Style-->
+    <style name="ButtonMoreStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:enabled">true</item>
+        <item name="android:text">@string/button_get_more</item>
+    </style>
+    <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Item de uma lista -->
+    <style name="ItemListStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <!-- Details - Share "Button" -->
+    <style name="ShareDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">150dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:onClick">SHARE</item>
+        <item name="android:focusable">false</item>
+        <item name="android:src">@mipmap/share2</item>
+        <item name="android:text">@string/share</item>
+    </style>
+    <!-- Details - Movie/Tvshow Title -->
+    <style name="TitleDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">@string/title</item>
+    </style>
+    <!-- Details - Movie/Tvshow Image -->
+    <style name="ImageDetailsStyle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:src">@drawable/default_movie</item>
+    </style>
+    <!-- Details - Movie/Tvshow Overview -->
+    <style name="OverviewDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">@string/overview</item>
+    </style>
+    <!-- Details - Movie/Tvshow Overview -->
+    <style name="RatingValueDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:text">@string/rating</item>
+    </style>
+    <!-- Details - Loader -->
+    <style name="LoaderDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:text">@string/rating</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">"en"</string>
+    <string name="app_name">Movies Db</string>
+    <string name="home">HOME</string>
+    <string name="movies">NOW PLAYING MOVIES</string>
+    <string name="tv_shows">POPULAR TV SHOWS</string>
+    <string name="search_input">Search Movie</string>
+    <string name="button_search">SEARCH</string>
+    <string name="search_input_results">Results for</string>
+    <string name="button_get_more">GET MORE</string>
+    <string name="net_error_message">failed to connect</string>
+    <string name="catch_error_message">Failed request. Please try again. </string>
+    <string name="update_message">last update</string>
+    <string name="list_pages">Pages</string>
+    <string name="share_app">Choose Application for Share</string>
+
+    <!--Movie/Tvshow Details-->
+    <string name="share">SHARE</string>
+    <string name="title">TITLE</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="rating">RATING</string>
+
+    <!--Frases na Partilha de Filmes-->
+    <string name="movie_share_message_item">The Movie</string>
+    <string name="movie_share_message_rating">has the average rating of</string>
+    <string name="movie_share_message_bad">Hum, this movie has a awful rating score!</string>
+    <string name="movie_share_message_medium">This movie does not have a nice score. :(</string>
+    <string name="movie_share_message_good">This movie must be good! :)</string>
+    <string name="movie_share_message_amazing">This movie must be amazing!!!</string>
+
+    <!--Frases na Partilha de Series-->
+    <string name="tv_show_share_message_item">The Tv Show</string>
+    <string name="tv_show_share_message_rating">has the average rating of</string>
+    <string name="tv_show_share_message_bad">Hum, this tv show has a awful rating score!</string>
+    <string name="tv_show_share_message_medium">This tv show does not have a nice score. :(</string>
+    <string name="tv_show_share_message_good">This tv show must be good! :)</string>
+    <string name="tv_show_share_message_amazing">This tv show must be amazing!!!</string>
+
+
+
+</resources>
